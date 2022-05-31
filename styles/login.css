@@ -1,0 +1,9 @@
+.loginContainer{
+    margin: 30px auto;
+    max-width: 300px;
+}
+.loginContainer .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

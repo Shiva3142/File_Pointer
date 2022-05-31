@@ -1,0 +1,81 @@
+.ProfileCOntainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 1px solid gray;
+    min-height: 70vh;
+    margin: 20px auto;
+}
+
+.optionsContainer{
+    /* border: 1px solid red; */
+}
+
+.optionsDetailesContainer{
+    border-left: 1px solid gray;
+}
+
+.optionsContainer div{
+    text-align: center;
+    padding: 20px;
+    /* border: 5px solid gray; */
+    margin: 10px;
+    word-wrap: 100%;
+    background: #81ecec;
+    cursor: pointer;
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+.passwordManagement{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70%;
+}
+.passwordManagement h4{
+    margin: 20px;
+}
+.passwordManagement .password{
+    /* border: 1px solid gray; */
+    font-size: 2em;
+    padding: 5px 20px;
+    margin: 30px;
+}
+
+
+.profiledetails{
+    padding: 10px;
+}
+.profiledetails >div{
+    display: flex;
+    border: 1px solid aqua;
+    margin: 20px;
+    padding: 10px;
+}
+.profiledetails >div div{
+    width: 180px;
+}
+.profiledetails span{
+    font-weight: bolder;
+}
+
+#message{
+    color: #81ecec;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .ProfileCOntainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .optionsContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .optionsDetailesContainer{
+        border-top: 1px solid gray;
+    }
+}
+

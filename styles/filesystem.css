@@ -1,0 +1,56 @@
+.UploadFileForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.UploadFileForm input[type=file]{
+    display: none;
+}
+.UploadFileForm label{
+    padding: 10px 20px;
+    background: aqua;
+    color: white;
+    border-radius: 10px;
+    max-width: 99%;
+}
+
+.UploadFileForm .button{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.asideuploadlist{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 95%;
+}
+
+
+.optionContainers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.option{
+    /* padding: 30px; */
+    /* border: 1px solid gray; */
+    margin: 30px;
+}
+.option a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
