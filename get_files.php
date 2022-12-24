@@ -36,14 +36,6 @@ if (count($fileList)==0) {
     
 }
 
-
-
-
-
-
-
-
-
 include './utils/defaults_end.php';
 mysqli_close($conn);
 
